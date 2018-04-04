@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="CSS/index.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="col-100">
+    		<div class="block gutter">
+    			<p> We are almost home!</p>
+    		</div>
+    	</div>
+      <div class="clear"></div>
+      <div class="col-50">
+        <div class="block gutter">
+          <div id="map"></div>
+        </div>
+      </div>
+      <div class="col-50">
+    		<div class="block gutter">
+    			<article id="weather"></article>
+    		</div>
+    	</div>
+      <div class="clear"></div>
+  </div>
+    <script type="text/javascript" src="main.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuCXbp-_hb8yMvn0gN3xNgPImBs6ANHFU&callback=initMap">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  color: white;
+  padding: 50px 0 0;
+  font-weight: bold;
+  background-image: url('../Images/night.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#map {
+  height: 600px;
+  width: 100%;
+ }
+
+ .block {
+   display: block;
+   text-align: center;
+   margin-bottom: 40px;
+ }
+
+ .grid {
+   margin: 0 auto;
+   padding-top: 5px;
+ }
+
+ .gutter {
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
+ .col-50 {
+   width: 50%;
+   float: left;
+ }
+
+ .col-100 {
+   width: 100%;
+   float: left;
+ }
+
+ .clear {
+   clear: both;
+   display: block;
+ }
+
+ #weather {
+ 	width: 500px;
+ 	padding: 0px;
+ 	overflow: auto;
+ }
+
+ #weather > .forecastMoment {
+ 	float: left;
+ 	width: 80px;
+ 	margin: 2px;
+ 	padding-top: 0px;
+ 	padding-bottom: 0px;
+ 	text-align: center;
+ 	background-color: white;
+ 	color: black;
+ 	font-size: 0.5em;
+ }
+
+ .temp {
+ 	color: #47cbff;
+ 	font-size: 1.3em;
+ }
+
+ .hidden {
+ 	display: none;
+ }
+
+ @media all and (max-width:800px) {
+ 	.col-33{
+ 		width: 50%;
+ 	}
+ }
+
+ @media all and (max-width:600px) {
+ 	.col-50, .col-33{
+ 		width: 100%;
+ 		float: none;
+ 	}
+ }
