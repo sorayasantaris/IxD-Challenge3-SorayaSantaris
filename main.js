@@ -4,7 +4,7 @@ function initMap() {
     zoom: 4,
     center: uluru
   });
-  
+
   var marker = new google.maps.Marker({
     position: uluru,
     map: map
@@ -17,7 +17,7 @@ function initMap() {
 function getAPIdata() {
 
 	// get latest weather
-	fetch('http://api.openweathermap.org/data/2.5/forecast?q=the%20Hague,nl&appid=b0c8dafa512a0134e90df6ece3c2b7a2')
+	fetch('http://api.openweathermap.org/data/2.5/forecast?q=the%20Hague,nl&appid=91953ad84916e22b3268194030179dcf')
 
 	// parse to JSON format
 	.then(function(response) {
